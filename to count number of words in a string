@@ -1,0 +1,15 @@
+public class WordCount {
+    public static void main(String[] args) {
+        // Input string
+        String input = "Java is platform independent programming language";
+
+        // Split the string into words using space as a separator
+        String[] words = input.split(" "); 
+
+        // Count the number of words
+        int wordCount = words.length;
+
+        // Print the result
+        System.out.println("Number of words: " + wordCount);
+    }
+}
